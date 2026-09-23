@@ -338,13 +338,13 @@ export default function App() {
             placeholder="تأكيد كلمة المرور"
             value={confirm}
             onChange={(e) =>
-              setConfirm(e.target.value)
-            }
+  k       setConfirm(e.target.value)
           />
-        )}
-
+    )
         <button
-          className="mainButton"
+          classnpm
+          npmstart          
+          ton"
           disabled={loading}
           onClick={
             page === "login"
@@ -356,36 +356,142 @@ export default function App() {
             ? "جاري التنفيذ..."
             : page === "login"
             ? "🔐 تسجيل الدخول"
-            : "✨ إنشاء الحساب"}
-        </button>
+? "🔐 تسجيل الدخول"
+تسجيل الدخول"
+? "🔐 تسجيل الدخول"
+الدخول"
+تسجيل الول"
 
-        {message && (
-          <div className="success">
-            {message}
+ 🔐 جيل ول"
+دخول"
+الدخول"
+تسجيل الدخول"
+? "🔐 تسجيل الدخول"
+   ✨ إنشاء الحساب"}
+
+
+
+
+
+
+
+
+>
+
+
+
+       {m (
+ (
+ 
+sge (
+
+(
+ge ssag 
+ (
+ (
+(
+ (
+(
+ (
+(
+ (
+ (
+ (
+(
+ (
+(
+ssage && (
+ (
+     <disName=ss">
+     class"succ
+ss">
+>
+       <div cl">
+">
+cess">
+ss">
+
+<div Name="success">
+ss">
+ss">
+ss
+="success">
+ss">
+ <div cl"suc">
+>
+
+uc">
+uc">
+
+uc">
+
+>
+">
+
+uc">
+
+
+ <divsName="success">
+s">
+>
+">
+">
+">
+ss">
+
+     <div >
+       e}
           </div>
-        )}
+ )}
 
-        {error && (
-          <div className="error">
+       )}
+
+)}
+
+       )}
+
+ {err 
+       <div          {error}
+ {error}
+e="error">
+{error}
+{error}
+e
+r}
+ {error}
+e="error">
+{error}
+e="error">
+
+             {error}
+error}
+r}
+r}
+ {error}
+ror}
+e="error">
             {error}
-          </div>
+ {error}
+         </div>
         )}
 
-        <div className="codeInfo">
-          <b>كود الطلب والمكافأة</b>
+)}
 
-          <div className="code">
-            {CODE}
+   <div className="codeInfo">
+">
+nfo">
+">
+    b>كود والمكافأة</b>
+
+   <div className="code">
           </div>
-        </div>
+   </div>
+     >
 
-        <div className="warning">
-          🔒 لا تدخل Seed Phrase أو
-          Private Key في صفحة تسجيل الدخول.
-        </div>
 
-      </div>
+        <di="wag">
+      🔒 لا rase أو
+     te  في  سجيل الدخول.
 
-    </div>
   );
 }
